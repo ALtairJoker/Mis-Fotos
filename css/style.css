@@ -1,10 +1,30 @@
 body{
-    background: aliceblue;
-    font-family: 'Roboto', 'Open Sans';
+    background-image: linear-gradient(
+    0deg,
+    hsl(274deg 48% 12%) 0%,
+    hsl(292deg 50% 14%) 12%,
+    hsl(305deg 56% 16%) 21%,
+    hsl(312deg 63% 19%) 30%,
+    hsl(316deg 71% 21%) 37%,
+    hsl(318deg 79% 24%) 44%,
+    hsl(319deg 91% 25%) 52%,
+    hsl(318deg 79% 24%) 59%,
+    hsl(316deg 71% 21%) 66%,
+    hsl(312deg 63% 19%) 73%,
+    hsl(305deg 56% 16%) 81%,
+    hsl(292deg 50% 14%) 90%,
+    hsl(274deg 48% 12%) 100%
+    );
+    font-family: 'Zara Amorett Free', sans-serif;
+                                
 }
 
 a {
     text-decoration: none;
+}
+
+header {
+    color: aliceblue;
 }
 
 .titulo {
@@ -22,6 +42,8 @@ a {
 
 .contenedor_tarjeta {
     margin: 20px;
+    border: 9px outset #BCCD4F;
+    border-radius: 0px 40px 0px 40px;
 }
 
 .contenedor_tarjeta a{
